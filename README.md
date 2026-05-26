@@ -124,6 +124,8 @@ possible, written down the way they were actually used.
 - [PCBOARD.SYS](doors/pcboard-sys.md). PCBoard's fixed binary
   record.
 - [CHAIN.TXT](doors/chain-txt.md). WWIV's drop file.
+- [Wildcat!](doors/wildcat.md). Mustang Software. USERS.SYS binary
+  record and CALLINFO.BBS text drop file.
 
 [modem/]
 
