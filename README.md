@@ -85,6 +85,14 @@ possible, written down the way they were actually used.
   call.
 - [EMSI](fidonet/emsi.md). Electronic Mail Standard Identifier.
   one round-trip handshake instead of three.
+- [Nodelist](fidonet/nodelist.md). FTS-5000-series. the FidoNet
+  address database in ASCII, with weekly NodeDiff updates.
+- [BinkP](fidonet/binkp.md). FTS-1026. the TCP/IP mailer protocol
+  that replaced modem polling.
+- [Hydra](fidonet/hydra.md). Arjen Lentz. bidirectional file and
+  mail transfer over a single session.
+- [TIC](fidonet/tic.md). FSC-0028. the file-echo companion to
+  echomail. how artpacks propagated.
 
 [msgbase/]
 
