@@ -75,6 +75,12 @@ possible, written down the way they were actually used.
   streaming with crash recovery.
 - [Kermit](transfer/kermit.md). Frank da Cruz, Columbia. designed
   for the worst possible link. survives it.
+- [HSLink](transfer/hslink.md). Samuel H. Smith. bidirectional
+  alternative to ZMODEM.
+- [SEAlink](transfer/sealink.md). System Enhancement Associates.
+  sliding-window XMODEM variant, the SEAdog default.
+- [Janus](transfer/janus.md). Rick Huebner, Opus-CBCS.
+  bidirectional protocol for Fido mailers.
 
 [fidonet/]
 
