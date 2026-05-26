@@ -108,6 +108,12 @@ possible, written down the way they were actually used.
   base behind Maximus.
 - [QWK](msgbase/qwk.md). offline mail for everyone who could not
   afford to read online.
+- [Hudson](msgbase/hudson.md). Adam Hudson. the message base
+  behind QuickBBS and RemoteAccess.
+- [Fido *.MSG](msgbase/fido-msg.md). the original FTS-0001 flat
+  file store. one message per file in a directory.
+- [Synchronet SMB](msgbase/smb.md). Rob Swindell. four-file
+  message base still actively developed.
 
 [doors/]
 
