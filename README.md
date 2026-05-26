@@ -133,6 +133,19 @@ possible, written down the way they were actually used.
 - [Wildcat!](doors/wildcat.md). Mustang Software. USERS.SYS binary
   record and CALLINFO.BBS text drop file.
 
+[bbs/]
+
+- [Renegade](bbs/renegade.md). Cott Lang. the warez-scene BBS,
+  Telegard-derived, with pipe-code MCI and ACS.
+- [Vision/2](bbs/vision-2.md). late-90s underground BBS in the
+  Telegard family.
+- [Telegard](bbs/telegard.md). Tim Strike and Martin Pollard. the
+  grandfather of the Renegade family. TG.DAT drop file.
+- [Iniquity](bbs/iniquity.md). Mark Lewis. iCE-colors and
+  SAUCE-aware display in the warez scene.
+- [Oblivion/2](bbs/oblivion-2.md). Steve "Mercyful Fate" Berry.
+  MPL-scripted underground BBS.
+
 [modem/]
 
 - [Hayes AT command set](modem/hayes-at.md). every dial-up
