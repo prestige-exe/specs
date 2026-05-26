@@ -57,6 +57,8 @@ possible, written down the way they were actually used.
 - [ADF](adf.md). Artworx editor save format.
 - [IDF](idf.md). iCEDraw editor save format.
 - [TUNDRA](tundra.md). 24-bit per-cell colour on a character grid.
+- [TheDraw Font](tdf.md). .TDF bitmap font collection used by
+  TheDraw for headers and group greets.
 - [RIPscrip 1.53](ripscrip-1.53.md). TeleGrafix's vector graphics
   protocol.
 - [RIPscrip 1.54](ripscrip-1.54.txt). and its
