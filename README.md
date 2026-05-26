@@ -131,6 +131,14 @@ possible, written down the way they were actually used.
 
 - [Hayes AT command set](modem/hayes-at.md). every dial-up
   terminal program issued these.
+- [MNP 1-10](modem/mnp.md). Microcom. error correction and
+  compression at the modem layer.
+- [V.42 / V.42bis](modem/v42.md). ITU-T. LAPM error correction
+  and BTLZ data compression.
+- [USR Courier AT](modem/usr-courier.md). U.S. Robotics. extended
+  &-commands and S registers that made the init strings work.
+- [FOSSIL](modem/fossil.md). X00 and BNU. INT 14h serial API that
+  every BBS, mailer, and door used.
 
 ## provenance
 
