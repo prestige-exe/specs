@@ -29,78 +29,86 @@ possible, written down the way they were actually used.
 
 ## what is here
 
-[storage and metadata]
+[metadata/]
 
-- [SAUCE 00.5](sauce-00.5.md). the 128-byte record at the tail of
-  half the ANSI art ever made.
-- [CP437](cp437.md). the IBM PC ROM character set. the codepage
-  every other file in this repo silently assumes.
-- [FILES.BBS](files-bbs.md). directory descriptions for a BBS file
-  area.
-- [FILE_ID.DIZ](file-id-diz.md). 10 lines by 45 columns of release
-  description, inside the archive.
-- [NFO](nfo.md). release notes, group greets, and a CP437 logo on
-  top.
+- [SAUCE 00.5](metadata/sauce-00.5.md). the 128-byte record at the
+  tail of half the ANSI art ever made.
+- [CP437](metadata/cp437.md). the IBM PC ROM character set. the
+  codepage every other file in this repo silently assumes.
+- [FILES.BBS](metadata/files-bbs.md). directory descriptions for a
+  BBS file area.
+- [FILE_ID.DIZ](metadata/file-id-diz.md). 10 lines by 45 columns
+  of release description, inside the archive.
+- [NFO](metadata/nfo.md). release notes, group greets, and a
+  CP437 logo on top.
 
-[text-mode art]
+[art/]
 
-- [ANSI escape codes](ansi-escape.md). the BBS-relevant subset of
-  ECMA-48, as implemented by ANSI.SYS.
-- [AVATAR / AVT-0+](avatar.md). FidoNet's denser alternative to
-  ANSI.
-- [PCBoard @-codes](pcboard-at-codes.md). display-file macros for
-  PCBoard.
-- [BIN](bin.md). raw IBM PC text-mode video buffer, written to
+- [ANSI escape codes](art/ansi-escape.md). the BBS-relevant subset
+  of ECMA-48, as implemented by ANSI.SYS.
+- [AVATAR / AVT-0+](art/avatar.md). FidoNet's denser alternative
+  to ANSI.
+- [PCBoard @-codes](art/pcboard-at-codes.md). display-file macros
+  for PCBoard.
+- [BIN](art/bin.md). raw IBM PC text-mode video buffer, written to
   disk unmodified.
-- [XBin](xbin.md). BIN with a header, optional font, optional
+- [XBin](art/xbin.md). BIN with a header, optional font, optional
   palette, optional RLE.
-- [ADF](adf.md). Artworx editor save format.
-- [IDF](idf.md). iCEDraw editor save format.
-- [TUNDRA](tundra.md). 24-bit per-cell colour on a character grid.
-- [TheDraw Font](tdf.md). .TDF bitmap font collection used by
+- [ADF](art/adf.md). Artworx editor save format.
+- [IDF](art/idf.md). iCEDraw editor save format.
+- [TUNDRA](art/tundra.md). 24-bit per-cell colour on a character
+  grid.
+- [TheDraw Font](art/tdf.md). .TDF bitmap font collection used by
   TheDraw for headers and group greets.
-- [RIPscrip 1.53](ripscrip-1.53.md). TeleGrafix's vector graphics
-  protocol.
-- [RIPscrip 1.54](ripscrip-1.54.txt). and its
-  [template](ripscrip-1.54-template.txt).
+- [RIPscrip 1.53](art/ripscrip-1.53.md). TeleGrafix's vector
+  graphics protocol.
+- [RIPscrip 1.54](art/ripscrip-1.54.txt). and its
+  [template](art/ripscrip-1.54-template.txt).
 
-[transfer protocols]
+[transfer/]
 
-- [XMODEM](xmodem.md). Ward Christensen, 1977. the ancestor.
-  includes CRC and 1K extensions.
-- [YMODEM](ymodem.md). Chuck Forsberg, 1985. batch transfers,
-  file metadata, streaming.
-- [ZMODEM](zmodem.md). Chuck Forsberg, 1986. full-duplex
+- [XMODEM](transfer/xmodem.md). Ward Christensen, 1977. the
+  ancestor. includes CRC and 1K extensions.
+- [YMODEM](transfer/ymodem.md). Chuck Forsberg, 1985. batch
+  transfers, file metadata, streaming.
+- [ZMODEM](transfer/zmodem.md). Chuck Forsberg, 1986. full-duplex
   streaming with crash recovery.
-- [Kermit](kermit.md). Frank da Cruz, Columbia. designed for the
-  worst possible link. survives it.
+- [Kermit](transfer/kermit.md). Frank da Cruz, Columbia. designed
+  for the worst possible link. survives it.
 
-[fidonet and message bases]
+[fidonet/]
 
-- [FidoNet FTS-0001](fidonet-fts-0001.md). the type-2 packet, the
-  message format, the legacy session protocol.
-- [FidoNet Echomail](fidonet-echomail.md). FTS-0004 and FTS-0005.
-  the conference layer that propagated by nightly modem call.
-- [EMSI](emsi.md). Electronic Mail Standard Identifier. one
-  round-trip handshake instead of three.
-- [JAM](jam.md). Joaquim-Andrew-Mats. the unifying message base.
-- [Squish](squish.md). Lanius Corporation. the message base
-  behind Maximus.
-- [QWK](qwk.md). offline mail for everyone who could not afford
-  to read online.
+- [FidoNet FTS-0001](fidonet/fidonet-fts-0001.md). the type-2
+  packet, the message format, the legacy session protocol.
+- [FidoNet Echomail](fidonet/fidonet-echomail.md). FTS-0004 and
+  FTS-0005. the conference layer that propagated by nightly modem
+  call.
+- [EMSI](fidonet/emsi.md). Electronic Mail Standard Identifier.
+  one round-trip handshake instead of three.
 
-[bbs doors]
+[msgbase/]
 
-- [DOOR.SYS](door-sys.md). the universal 51-line ASCII drop file.
-- [DORINFOx.DEF](dorinfo.md). RemoteAccess and QuickBBS drop
+- [JAM](msgbase/jam.md). Joaquim-Andrew-Mats. the unifying message
+  base.
+- [Squish](msgbase/squish.md). Lanius Corporation. the message
+  base behind Maximus.
+- [QWK](msgbase/qwk.md). offline mail for everyone who could not
+  afford to read online.
+
+[doors/]
+
+- [DOOR.SYS](doors/door-sys.md). the universal 51-line ASCII drop
   file.
-- [PCBOARD.SYS](pcboard-sys.md). PCBoard's fixed binary record.
-- [CHAIN.TXT](chain-txt.md). WWIV's drop file.
+- [DORINFOx.DEF](doors/dorinfo.md). RemoteAccess and QuickBBS
+  drop file.
+- [PCBOARD.SYS](doors/pcboard-sys.md). PCBoard's fixed binary
+  record.
+- [CHAIN.TXT](doors/chain-txt.md). WWIV's drop file.
 
-[modem control]
+[modem/]
 
-- [Hayes AT command set](hayes-at.md). every dial-up terminal
-  program issued these.
+- [Hayes AT command set](modem/hayes-at.md). every dial-up
+  terminal program issued these.
 
 ## provenance
 
