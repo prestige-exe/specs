@@ -46,6 +46,8 @@ possible, written down the way they were actually used.
 
 - [ANSI escape codes](art/ansi-escape.md). the BBS-relevant subset
   of ECMA-48, as implemented by ANSI.SYS.
+- [ANSI.SYS](art/ansi-sys.md). the DOS device driver. what it
+  actually implements versus what the standard says.
 - [AVATAR / AVT-0+](art/avatar.md). FidoNet's denser alternative
   to ANSI.
 - [PCBoard @-codes](art/pcboard-at-codes.md). display-file macros
@@ -64,6 +66,10 @@ possible, written down the way they were actually used.
   graphics protocol.
 - [RIPscrip 1.54](art/ripscrip-1.54.txt). and its
   [template](art/ripscrip-1.54-template.txt).
+- [NAPLPS](art/naplps.md). ANSI X3.110-1983. videotex graphics
+  used by Prodigy and Bell Canada Alex.
+- [Teletext](art/teletext.md). ETSI EN 300 706. UK and European
+  broadcast text-mode graphics in the VBI.
 
 [transfer/]
 
